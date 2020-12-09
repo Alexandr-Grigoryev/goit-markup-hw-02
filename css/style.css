@@ -1,8 +1,3 @@
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-}
-
 /* цвет основного текста #212121 */
 /* вторичный цвет #757575 */
 /* цвет фона секции "Наша команда" #F5F4FA */
@@ -10,24 +5,60 @@ body {
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 
+:root {
+  --primary-text-color: #757575;
+  --title-text-clolr: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
 /* logo */
 .logo-link {
   color: #000000;
   text-decoration: none;
 }
 .logo-accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* nav */
 .link {
   text-decoration: none;
-  color: #212121;
+  color: #000000;
 }
 .list {
   list-style: none;
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--title-text-clolr);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-clolr);
+}
+
+/* examples */
+
+/* Button */
+
+.button {
+  color: var(--title-text-clolr);
+  background-color: var(--primary-bg-color);
+}
+
+.button-primary {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
 }
