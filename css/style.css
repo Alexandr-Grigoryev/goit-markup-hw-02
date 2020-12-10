@@ -6,10 +6,12 @@
 /* акцент #2196F3 */
 
 :root {
+  --filter-button-text-color: #212121;
+  --filter-button-bg-color: #f5f4fa;
   --primary-text-color: #757575;
   --title-text-clolr: #212121;
   --accent-color: #2196f3;
-  --primary-bg-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
 }
 
 body {
@@ -31,7 +33,7 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.list {
+.list li {
   list-style: none;
 }
 .link:hover,
@@ -41,6 +43,9 @@ body {
 
 .section-title {
   color: var(--title-text-clolr);
+}
+.link.current {
+  color: var(--accent-color);
 }
 
 /* Features */
@@ -56,9 +61,27 @@ body {
 .button {
   color: var(--title-text-clolr);
   background-color: var(--primary-bg-color);
+
+  font-size: 18px;
+  padding: 9px 18px;
+  display: inline-block;
+  border: 1px solid black;
 }
 
-.button-primary {
-  color: var(--primary-bg-color);
+.button.hero {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+
+.button.filter {
+  color: var(--filter-button-text-color);
+  background-color: var(--filter-button-bg-color);
+  border-color: transparent;
+}
+
+.button.filter:hover,
+.button.filter:focus {
+  color: #ffffff;
   background-color: var(--accent-color);
 }
