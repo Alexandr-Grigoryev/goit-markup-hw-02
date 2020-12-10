@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.list li {
+.list {
   list-style: none;
 }
 .link:hover,
@@ -85,3 +85,6 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+.link-projects {
+  text-decoration: none;
+  color: #000000;
