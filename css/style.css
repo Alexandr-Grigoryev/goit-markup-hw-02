@@ -17,21 +17,46 @@
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-clolr);
 }
 
 /* logo */
 .logo-link {
   color: #000000;
   text-decoration: none;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-accent {
   color: var(--accent-color);
 }
 
 /* nav */
+
+.link.current {
+  color: var(--accent-color);
+}
+
 .link {
   text-decoration: none;
   color: #000000;
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -41,26 +66,26 @@ body {
   color: var(--accent-color);
 }
 
-.section-title {
+/* hero */
+
+.section-title-hero {
   color: var(--title-text-clolr);
+  font-family: Roboto;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.link.current {
-  color: var(--accent-color);
-}
-
-/* Features */
-
-.feature-list .title {
-  color: var(--title-text-clolr);
-}
-
-/* examples */
-
-/* Button */
 
 .button {
   color: var(--title-text-clolr);
   background-color: var(--primary-bg-color);
+
+  font-family: inherit;
 
   font-size: 18px;
   padding: 9px 18px;
@@ -72,7 +97,97 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
   border-color: transparent;
+  font-family: Roboto;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-clolr);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.feature-list p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* doing  */
+
+.section-title-doing {
+  color: var(--title-text-clolr);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-title-team {
+  color: var(--title-text-clolr);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-title-name {
+  color: var(--title-text-clolr);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/* team */
+.section.team {
+  background-color: #f5f4fa;
+}
+
+.section.team p {
+  color: var(--title-text-clolr);
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+.section-title-team {
+  color: var(--title-text-clolr);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.section-title-name {
+  color: var(--title-text-clolr);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/* examples */
 
 .button.filter {
   color: var(--filter-button-text-color);
@@ -88,3 +203,4 @@ body {
 .link-projects {
   text-decoration: none;
   color: #000000;
+}
