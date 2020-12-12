@@ -156,7 +156,7 @@ body {
 }
 
 .section.team p {
-  color: var(--title-text-clolr);
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
 
