@@ -1,6 +1,7 @@
 /* цвет основного текста #212121 */
 /* вторичный цвет #757575 */
 /* цвет фона секции "Наша команда" #F5F4FA */
+/* цвет фона скции футер #2F303A */
 
 /* белый #FFFFFF */
 /* акцент #2196F3 */
@@ -28,7 +29,7 @@ body {
   color: var(--title-text-clolr);
 }
 
-/* logo */
+/* logo  */
 .logo-link {
   color: #000000;
   text-decoration: none;
@@ -51,7 +52,6 @@ body {
 .link {
   text-decoration: none;
   color: #000000;
-  font-family: 'Roboto', sans-serif;
 
   font-weight: 500;
   font-size: 14px;
@@ -70,7 +70,7 @@ body {
 
 .section-title-hero {
   color: var(--title-text-clolr);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 
   font-weight: 900;
   font-size: 44px;
@@ -80,6 +80,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+/* button */
 
 .button {
   color: var(--title-text-clolr);
@@ -93,11 +95,13 @@ body {
   border: 1px solid black;
 }
 
+/* button hero */
+
 .button.hero {
   color: #ffffff;
   background-color: var(--accent-color);
   border-color: transparent;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 
   font-weight: bold;
   font-size: 16px;
@@ -114,7 +118,7 @@ body {
 .feature-list .title {
   color: var(--title-text-clolr);
 
-  font-weight: bold;
+  font-weight: 700
   font-size: 14px;
   line-height: 1.14;
 
@@ -126,19 +130,10 @@ body {
   line-height: 1.71;
 }
 
-/* doing  */
+/* work page  */
 
-.section-title-doing {
+.section-title-work {
   color: var(--title-text-clolr);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-.section-title-team {
-  color: var(--title-text-clolr);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -189,10 +184,18 @@ body {
 
 /* examples */
 
+/* button filter */
+
 .button.filter {
   color: var(--filter-button-text-color);
   background-color: var(--filter-button-bg-color);
   border-color: transparent;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
 }
 
 .button.filter:hover,
@@ -200,7 +203,64 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+
+/* progrcts */
+
 .link-projects {
   text-decoration: none;
   color: #000000;
+}
+.projects-title h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.projects-title p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* footer */
+
+.footer-page {
+  background-color: #2f303a;
+}
+.logo-link-footer {
+  color: #ffffff;
+
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/* adress */
+.adress-description {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  color: #ffffff;
+}
+.mail {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.6);
 }
