@@ -118,7 +118,7 @@ body {
 .feature-list .title {
   color: var(--title-text-clolr);
 
-  font-weight: 700
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 
@@ -204,7 +204,7 @@ body {
   background-color: var(--accent-color);
 }
 
-/* progrcts */
+/* projects */
 
 .link-projects {
   text-decoration: none;
@@ -219,7 +219,7 @@ body {
 
   color: #212121;
 }
-.projects-title p {
+.projects-text p {
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
