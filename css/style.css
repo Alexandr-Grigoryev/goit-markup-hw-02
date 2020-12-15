@@ -9,24 +9,39 @@
 :root {
   --filter-button-text-color: #212121;
   --filter-button-bg-color: #f5f4fa;
+
   --primary-text-color: #757575;
   --title-text-clolr: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #e5e5e5;
+
+  --primary-text-style: 'Roboto', sans-serif;
 }
 
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
 
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-text-style);
+  /* font-family: 'Roboto', sans-serif; */
   letter-spacing: 0.03em;
 }
 
-/* section */
+.link {
+  text-decoration: none;
+  color: #000000;
 
-.section-title {
-  color: var(--title-text-clolr);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
 
 /* logo  */
@@ -49,28 +64,10 @@ body {
   color: var(--accent-color);
 }
 
-.link {
-  text-decoration: none;
-  color: #000000;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.list {
-  list-style: none;
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
 /* hero */
 
-.section-title-hero {
+.title-hero {
   color: var(--title-text-clolr);
-  font-family: Roboto, sans-serif;
 
   font-weight: 900;
   font-size: 44px;
@@ -81,29 +78,15 @@ body {
   text-transform: uppercase;
 }
 
-/* button */
-
-.button {
-  color: var(--title-text-clolr);
-  background-color: var(--primary-bg-color);
-
-  font-family: inherit;
-
-  font-size: 18px;
-  padding: 9px 18px;
-  display: inline-block;
-  border: 1px solid black;
-}
-
 /* button hero */
 
-.button.hero {
+.button-hero {
   color: #ffffff;
   background-color: var(--accent-color);
   border-color: transparent;
   font-family: Roboto, sans-serif;
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 
@@ -111,6 +94,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 9px 18px;
 }
 
 /* Features */
@@ -130,23 +114,13 @@ body {
   line-height: 1.71;
 }
 
-/* work page  */
+/* workpage  */
 
-.section-title-work {
+.workpage-title {
   color: var(--title-text-clolr);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
-}
-
-.section-title-name {
-  color: var(--title-text-clolr);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-
   text-align: center;
 }
 
@@ -155,14 +129,14 @@ body {
   background-color: #f5f4fa;
 }
 
-.section.team p { 
+.section.team p {
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
 }
 
-.section-title-team {
+.section-team-title {
   color: var(--title-text-clolr);
 
   font-weight: bold;
@@ -171,7 +145,7 @@ body {
   text-align: center;
 }
 
-.section-title-name {
+.team-name {
   color: var(--title-text-clolr);
 
   font-weight: 500;
@@ -181,35 +155,37 @@ body {
   text-align: center;
 }
 
-/* examples */
-
 /* button filter */
 
-.button.filter {
+.button-filter {
   color: var(--filter-button-text-color);
   background-color: var(--filter-button-bg-color);
   border-color: transparent;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
 
+  padding: 9px 18px;
+  display: inline-block;
+
   text-align: center;
 }
 
-.button.filter:hover,
-.button.filter:focus {
+.button-filter:hover,
+.button-filter:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 
 /* projects */
 
-.link-projects {
+.projects-link {
   text-decoration: none;
   color: #000000;
 }
-.projects-title h2 {
+.projects h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -218,7 +194,7 @@ body {
 
   color: #212121;
 }
-.projects-text p {
+.projects p {
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
@@ -229,7 +205,7 @@ body {
 .footer-page {
   background-color: #2f303a;
 }
-.logo-link-footer {
+.footer-logo-link {
   color: #ffffff;
 
   text-decoration: none;
@@ -243,7 +219,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
 
   color: #ffffff;
 }
