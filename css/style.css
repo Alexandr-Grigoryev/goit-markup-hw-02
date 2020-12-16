@@ -38,6 +38,8 @@ body {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link:hover,
 .link:focus {
@@ -51,12 +53,7 @@ body {
 
   padding: 0 15px;
 
-  outline: 2px solid tomato;
-}
-
-/* page header */
-.page-header {
-  background-color: #ccc;
+  outline: 2px solid blueviolet;
 }
 
 /* logo  */
@@ -80,22 +77,30 @@ body {
 }
 
 /* hero */
+.hero {
+  margin-bottom: 94px;
+  text-align: center;
 
-.title-hero {
+  outline: 1px solid coral;
+  /* background-color: tomato; */
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: var(--title-text-clolr);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* button hero */
 
-.button-hero {
+.hero-button {
   border: 0;
   padding: 10px 32px;
   border-radius: 4px;
@@ -113,13 +118,16 @@ body {
   display: inline-block;
   /* display: flex;
   align-items: center; */
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
 }
 
 /* Features */
 
-.feature-list .title {
+.feature-list h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   color: var(--title-text-clolr);
 
   font-weight: 700;
@@ -130,6 +138,9 @@ body {
 }
 
 .feature-list p {
+  margin-top: 0px;
+  margin-bottom: 94px;
+
   font-size: 14px;
   line-height: 1.71;
 }
