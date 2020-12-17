@@ -17,14 +17,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <section class="header-section">
+      <header class="container">
         <!-- nav -->
         <nav>
           <a href="./index.html" class="logo-link">
             <span class="logo-accent">Web</span>Studio
           </a>
-          <ul class="list">
+          <ul class="list site-nav">
             <li><a href="./index.html" class="link current">Студия</a></li>
             <li><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li><a href="" class="link">Контакты</a></li>
@@ -41,8 +41,13 @@
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </div>
-    </header>
+      </header>
+    </section>
+
+    <!--border-->
+
+    <div class="border"></div>
+
     <main>
       <!-- hero -->
 
@@ -55,56 +60,57 @@
       </section>
 
       <!-- features -->
-
-      <section>
-        <div class="container">
-          <ul class="feature-list list">
-            <li>
-              <h3>Внимание к деталям</h3>
-              <p>
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li>
-              <h3>Пунктуальность</h3>
-              <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <h3>Планирование</h3>
-              <p>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <h3>Современные технологии</h3>
-              <p>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
+      <section class="features">
+        <ul class="feature-list list container">
+          <li>
+            <h3>Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <h3>Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <h3>Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <h3>Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <!-- workpage -->
 
-      <section>
-        <h2 class="workpage-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li><img src="./image/box1.png" width="370" alt="" /></li>
-          <li><img src="./image/box2.png" width="370" alt="" /></li>
-          <li><img src="./image/box3.png" width="370" alt="" /></li>
-        </ul>
+      <section class="workpage">
+        <div class="container">
+          <h2 class="workpage-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li><img src="./image/box1.png" width="370" alt="" /></li>
+            <li><img src="./image/box2.png" width="370" alt="" /></li>
+            <li><img src="./image/box3.png" width="370" alt="" /></li>
+          </ul>
+        </div>
       </section>
+
       <!-- Our team-->
-      <div>
-        <section class="section team">
-          <h2 class="section-team-title">Наша команда</h2>
+
+      <section class="team section">
+        <div class="team container">
+          <h2 class="team-section-title">Наша команда</h2>
           <ul class="list">
             <li>
               <a href=""><img src="./image/img1.png" width="270" alt="" /></a>
@@ -127,11 +133,11 @@
               <p>UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer-page">
-      <div>
+    <section class="footer-section">
+      <footer class="container">
         <a href="./index.html" class="footer-logo-link">
           <span class="logo-accent">Web</span>Studio
         </a>
@@ -145,7 +151,7 @@
             <li><p class="tel">+38 099 111 11 11</p></li>
           </ul>
         </address>
-      </div>
-    </footer>
+      </footer>
+    </section>
   </body>
 </html>
