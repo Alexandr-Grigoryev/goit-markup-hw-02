@@ -376,7 +376,7 @@ body {
 }
 
 .portfolio-projects-flex img {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: block;
 }
 /* Вариант 1 */
@@ -412,6 +412,10 @@ body {
   text-decoration: none;
   color: #000000;
 }
+.portfolio-description {
+  padding: 20px 24px 20px 24px;
+  display: block;
+}
 
 .projects h2 {
   font-weight: 700;
@@ -420,7 +424,7 @@ body {
   margin-top: 0px;
   margin-bottom: 4px;
   letter-spacing: 0.06em;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 
   color: #212121;
 }
@@ -430,7 +434,7 @@ body {
   line-height: 1.9;
   margin-top: 0;
   margin-bottom: 0px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 /* footer */
@@ -438,11 +442,13 @@ body {
 .footer-section {
   padding: 60px 0;
   background-color: #2f303a;
+  display: block;
 }
 
 .footer-logo-link {
   display: inline-block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding-bottom: 20px;
   color: #ffffff;
 
   text-decoration: none;
@@ -454,16 +460,21 @@ body {
 /* adress */
 .adress-description {
   margin: 0;
+  padding-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 
   color: #ffffff;
 }
+.adress-list {
+  display: block;
+}
 .mail {
   margin: 0;
-  font-style: normal;
+  padding-bottom: 9px;
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 
@@ -471,8 +482,8 @@ body {
 }
 .tel {
   margin: 0;
+  padding-bottom: 60px;
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.7;
 
